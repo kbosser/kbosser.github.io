@@ -5,37 +5,262 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
     <title>kilian</title>
   </head>
 
   <body>
     <div class="pageA4">
-      <div>
-        <h1>Titre</h1>
+      <div class="cvHeader">
+        <div class="photo">Photo</div>
+        <div class="enteteCV">
+          <div class="titreCV">Développeur Web / Data Scientist</div>
+          <div class="sousTitreCV">Kilian BOSSER</div>
+        </div>
       </div>
       <div class="colone">
         <div class="col1">
-          <div>COMPETENCES</div>
-          <div>SOFT SKILLS</div>
-          <div>CENTRES D'INTÉRÊT</div>
-          <div>CONTACT</div>
+          <div class="categorie catCol1">COMPETENCES</div>
+          <div class="competences expTitlePart1">
+            <div>
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>VueJS</div>
+            </div>
+            <div>
+              <div>Node JS</div>
+              <div>C#</div>
+              <div>PHP - Symfony</div>
+            </div>
+            <div>
+              <div>MySQL</div>
+              <div>MongoDB</div>
+            </div>
+          </div>
+
+          <div class="categorie catCol1">SOFT SKILLS</div>
+          <div class="categorie catCol1">CENTRES D'INTÉRÊT</div>
+          <div class="categorie catCol1">CONTACT</div>
         </div>
-        <div>
+        <div class="col2">
           <div>
-            EXPÉRIENCE PROFESSIONNELLE
-            <ul>
-              <li>exp title 1</li>
-              <li>exp title 2</li>
-              <li>exp title 3</li>
-            </ul>
+            <div class="categorie catCol2 catUnderline">
+              EXPÉRIENCE PROFESSIONNELLE
+            </div>
+            <div id="expAlten" class="experience">
+              <div class="expTitle">
+                <div class="puce">
+                  <img
+                    class="formPuce"
+                    src="./ressources/images/portfolio.png"
+                  />
+                </div>
+                <div class="expTitlePart1">
+                  ALTEN en mission chez NAVAL Group
+                </div>
+                <div class="expTitlePart2">
+                  Cherbourg, Oct. 2018 - Juin 2021
+                </div>
+              </div>
+              <div class="expItem">
+                <div class="expItemTitle">
+                  <div class="expItemPuce">-></div>
+                  <div class="expItemTitlePart1">
+                    Pilote de centre de service (9 pers.)/ Technicien Méthodes
+                    Industrielles
+                  </div>
+                  <div class="expItemTitlePart2">Juin 2020 - Juin 2021</div>
+                </div>
+                <div class="itemDetail">
+                  <div>
+                    - Création et développement d'outils de pilotage et gestion
+                    de projet.
+                  </div>
+                  <div>- Traitement des anomalies chantier.</div>
+                </div>
+              </div>
+              <div class="expItem">
+                <div class="expItemTitle">
+                  <div class="expItemPuce">-></div>
+                  <div class="expItemTitlePart1">
+                    Pilote du centre de service ALTEN : Emménagement des
+                    sous-marins (7 pers.)
+                  </div>
+                  <div class="expItemTitlePart2">févr. 2019 - Mars 2020</div>
+                </div>
+                <div class="itemDetail">
+                  <div>- Gestion coût, qualité, délai de l'activité</div>
+                  <div>
+                    - Développement d'outils de gestion et de planification de
+                    l'activité
+                  </div>
+                  <div>
+                    - Analyse technique et résolution des anomalies chantiers.
+                  </div>
+                  <div>
+                    - Modification et mise à jour des plans et maquette 3D.
+                  </div>
+                  <div>
+                    - Création de protocoles qualité pour l'amélioration des
+                    livrables.
+                  </div>
+                </div>
+              </div>
+              <div class="expItem">
+                <div class="expItemTitle">
+                  <div class="expItemPuce">-></div>
+                  <div class="expItemTitlePart1">
+                    Ingénieur d'études matériels
+                  </div>
+                  <div class="expItemTitlePart2">Oct. 2018 - févr. 2019</div>
+                </div>
+                <div class="itemDetail">
+                  <div>
+                    - Vérification de la documentation technique des matériels.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="expEcam" class="experience">
+              <div class="expTitle">
+                <div class="puce">
+                  <img
+                    class="formPuce"
+                    src="./ressources/images/portfolio.png"
+                  />
+                </div>
+                <div class="expTitlePart1">ECAM Rennes Louis de Broglie</div>
+                <div class="expTitlePart2">Rennes, févr. Juil. 2018</div>
+              </div>
+              <div class="expItem">
+                <div class="expItemTitle">
+                  <div class="expItemPuce">-></div>
+                  <div class="expItemTitlePart1">
+                    Stage en laboratoire de recherche : Etude de la tribologie
+                    d'élastomères en vue d'application automobiles
+                  </div>
+                </div>
+                <div class="itemDetail">
+                  <div>- Rédaction d'une bibliographie/état de l'art.</div>
+                  <div>- Réalisation d'un plan d'essais.</div>
+                  <div>- Adaptation du banc aux essais spécifiques.</div>
+                  <div>
+                    - Modélisation du comportement mécanique des matériaux.
+                  </div>
+                  <div>
+                    - Mise en forme et interprétations scientifique des
+                    résultats.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="expMobitec" class="experience">
+              <div class="expTitle">
+                <div class="puce">
+                  <img
+                    class="formPuce"
+                    src="./ressources/images/portfolio.png"
+                  />
+                </div>
+                <div class="expTitlePart1">MOBITEC (KLUBB)</div>
+                <div class="expTitlePart2">Torcy, Juin - Août 2017</div>
+              </div>
+              <div class="expItem">
+                <div class="expItemTitle">
+                  <div class="expItemPuce">-></div>
+                  <div class="expItemTitlePart1">
+                    Stagiaire Ingénieur conception mécanique : Gestion et
+                    création d'un projet de camion tronqué
+                  </div>
+                </div>
+                <div class="itemDetail">
+                  <div>
+                    - Dimensionnement, modélisation et mise en plan des
+                    nouvelles pièces.
+                  </div>
+                  <div>
+                    - Sélection et commande des matériels nécessaires à la
+                    réalisation du projet.
+                  </div>
+                  <div>
+                    - Rédaction du protocole de réalisation pour la mise en
+                    production.
+                  </div>
+                  <div>- Réalisation du 1er prototype.</div>
+                  <div>
+                    - Introduction d'une étude d'allégement des nouvelles
+                    pièces.
+                  </div>
+                  <div>
+                    - Mission Secondaire: Modélisation de l'aménagement de
+                    véhicules utilitaires.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
-            FORMATION
-            <ul>
-              <li>formation title 1</li>
-              <li>formation title 2</li>
-              <li>formation title 3</li>
-            </ul>
+            <div class="categorie catCol2">FORMATION</div>
+            <div id="formEpitech" class="formItem">
+              <div class="formItemTitle">
+                <div class="puce">
+                  <img
+                    class="formPuce"
+                    src="./ressources/images/graduation-hat.png"
+                  />
+                </div>
+                <div class="formItemTitlePart1">EPITECH Rennes</div>
+                <div class="formItemTitlePart2">2021 - 2024</div>
+              </div>
+              <div class="formItemSubTitle">
+                <div class="formItemSubTitlePart1">
+                  Expert en informatique (titre RNCP niveau 7),
+                </div>
+                <div class="formItemSubTitlePart2">
+                  Spécialisation IA / Big Data
+                </div>
+              </div>
+            </div>
+            <div id="formEcam" class="formItem">
+              <div class="formItemTitle">
+                <div class="puce">
+                  <img
+                    class="formPuce"
+                    src="./ressources/images/graduation-hat.png"
+                  />
+                </div>
+                <div class="formItemTitlePart1">
+                  ECAM Rennes Louis de Broglie
+                </div>
+                <div class="formItemTitlePart2">2015 - 2018</div>
+              </div>
+              <div class="formItemSubTitle">
+                <div class="formItemSubTitlePart1">Ingénieur Généraliste,</div>
+                <div class="formItemSubTitlePart2">
+                  Option de spécialisation Matériaux
+                </div>
+              </div>
+            </div>
+            <div id="formInsa" class="formItem">
+              <div class="formItemTitle">
+                <div class="puce">
+                  <img
+                    class="formPuce"
+                    src="./ressources/images/graduation-hat.png"
+                  />
+                </div>
+                <div class="formItemTitlePart1">INSA Rennes</div>
+                <div class="formItemTitlePart2">2017 - 2018</div>
+              </div>
+              <div class="formItemSubTitle">
+                <div class="formItemSubTitlePart1">
+                  Master 2 Recherche : Mécanique, Matériaux, Génie Civil
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -7,6 +7,8 @@ body{
     background: linear-gradient(130deg, #355f64 50%, #643a35 50%);  /* Crayola's Outer Space: #29443a, Charleston Green: #1e2c2e*/
     display: flex;
     justify-content: center;
+    font-family: "Roboto";
+    color: #060709;
 }
 
 .pageA4 {
@@ -14,15 +16,185 @@ body{
     background-color: #F1F1EC;
     margin-top: 5%;
     border-radius: 5px;
-    box-shadow: 6px -6px 5px;
+    box-shadow: 6px -6px 5px #354864;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cvHeader{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.photo {
+    width: 20%;
+}
+
+.enteteCV{
     display: flex;
     flex-direction: column;
 }
+
+.titreCV {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sousTitreCV{
+    font-size: 30px;
+}
+
 .colone{
     display: flex;
     flex-direction: row;
 }
 
 .col1{
-    width: 40%;
+    flex: 30%;
+    border-right-style: solid;
+    border-width: 2px;
+    margin-right: 10px;
+}
+
+.col2{
+    flex: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.categorie{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.catCol2 {
+    text-align: right;
+    padding-right: 10%;
+}
+
+.catCol1 {
+    text-align: left;
+    padding-left: 10%;
+    /* border-bottom-style: solid;
+    border-width: 2px; */
+    margin-bottom: 10px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.expTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.expTitlePart1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 7px;
+
+}
+.expTitlePart2 {
+    font-size: 17px;
+    font-style: italic;
+    
+}
+
+.expItem{
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+.expItemTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+.expItemPuce{
+    margin-right: 10px;
+}
+
+.expItemTitlePart1{
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 7px;
+
+}.expItemTitlePart2{
+    font-size: 17px;
+    font-style: italic;
+}
+
+.itemDetail{
+    padding-left: 35px;
+
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formItemTitle{
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    
+    align-items: center;
+
+}
+
+.puce {
+    margin-right: 20px;
+}
+
+.formItemTitlePart1{
+    margin-right: 7px;
+    font-weight: bold;
+}
+
+.formItemTitlePart2{
+    font-size: 17px;
+    font-style: italic;
+}
+
+.formItemSubTitle{
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    margin-left: 45px;
+}
+
+.formItemSubTitlePart1{
+    margin-right: 7px;
+    font-weight: bold;
+}
+
+.formItemSubTitlePart2{
+    
+}
+
+.formPuce{
+    width: 25px;
+    height: 25px;
+}
+
+.competences{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
 }
